@@ -1,5 +1,7 @@
 # 一、概述
-zlmediakit pro版本支持基于ffmpeg的转码能力，在开源版本强大功能的基础，是开源ZLMediakit的超集，新增支持如下能力：
+## zlmediakit pro版本解析
+###  codec版本
+支持基于ffmpeg的转码能力，在开源版本强大功能的基础，是开源ZLMediakit的超集，新增支持如下能力：
 
 - 1、音视频间任意转码(包括h265/h264/opus/g711/aac等)。
 - 2、基于配置文件的转码，支持设置比特率，codec类型等参数。
@@ -10,6 +12,22 @@ zlmediakit pro版本支持基于ffmpeg的转码能力，在开源版本强大功
 - 7、支持滤镜，支持添加osd文本以及logo角标等能力。
 
 <img src="https://upload-images.jianshu.io/upload_images/8409177-05174aef527943e5.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/200" alt="图片.png" style="zoom:50%;" />
+
+## 1078版本
+1、支持jt1078推流转其他协议，支持2016、2019版本
+2、新增jt1078自适应音频、视频共享seq和单独seq模式
+3、新增支持adpcm格式，支持转rtsp
+4、新增支持音频转码，支持aac/adpcm/opus/g711音频互转
+5、新增支持jt1078级联，支持对讲
+6、完全兼容开源版功能
+
+## iptv/ts版本
+1、新增支持rtsp-ts/hls/http-ts拉流转协议以及rtsp-ts推流，支持ts透明模式，无需解复用转rtsp-ts/hls/http-ts协议，提高兼容性和性能
+2、支持rtsp-ts/hls/http-ts拉流以及rtsp-ts推流非透明模式，支持解复用ts为es流再转协议。
+
+## MAX版本：编码类型增强版本
+1、新增支持adpcm/av1/vp9编码格式，全链路支持rtsp/webrtc/rtmp/mp4/hls/ts等协议
+
 
 # 二、转码实现原理
 
@@ -225,6 +243,10 @@ Q&WX 18675721
 产品包含全部商业级源代码，支持后续迭代升级，另外可提供二进制可执行程序。
 |类型|价格|备注|
 |:--------:|:--------:|:--------:|
-|源代码|3W|不含税|
+|ZLM-PRO-CODEC源代码|3W|不含税|
+|ZLM-PRO-1078源代码|3W|不含税|
+|ZLM-PRO-IPTV源代码|3W|不含税|
+|ZLM-PRO-MAX源代码|3W|编码器增强版本|
+|备注|以上版本均独立支持，如有需合并请单独联系，单独报价||
 |二进制程序|1W|不含税|
 备注：税率：1%普票，3%、6%、13%专票
