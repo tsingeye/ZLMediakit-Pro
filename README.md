@@ -14,19 +14,19 @@
 <img src="https://upload-images.jianshu.io/upload_images/8409177-05174aef527943e5.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/200" alt="图片.png" style="zoom:50%;" />
 
 ## 1078版本
-1、支持jt1078推流转其他协议，支持2016、2019版本
-2、新增jt1078自适应音频、视频共享seq和单独seq模式
-3、新增支持adpcm格式，支持转rtsp
-4、新增支持音频转码，支持aac/adpcm/opus/g711音频互转
-5、新增支持jt1078级联，支持对讲
-6、完全兼容开源版功能
+- 1、支持jt1078推流转其他协议，支持2016、2019版本
+- 2、新增jt1078自适应音频、视频共享seq和单独seq模式
+- 3、新增支持adpcm格式，支持转rtsp
+- 4、新增支持音频转码，支持aac/adpcm/opus/g711音频互转
+- 5、新增支持jt1078级联，支持对讲
+- 6、完全兼容开源版功能
 
 ## iptv/ts版本
-1、新增支持rtsp-ts/hls/http-ts拉流转协议以及rtsp-ts推流，支持ts透明模式，无需解复用转rtsp-ts/hls/http-ts协议，提高兼容性和性能
-2、支持rtsp-ts/hls/http-ts拉流以及rtsp-ts推流非透明模式，支持解复用ts为es流再转协议。
+- 1、新增支持rtsp-ts/hls/http-ts拉流转协议以及rtsp-ts推流，支持ts透明模式，无需解复用转rtsp-ts/hls/http-ts协议，提高兼容性和性能
+- 2、支持rtsp-ts/hls/http-ts拉流以及rtsp-ts推流非透明模式，支持解复用ts为es流再转协议。
 
 ## vp8/9版本：编码类型增强版本
-1、新增支持adpcm/av1/vp8&9编码格式，全链路支持rtsp/webrtc/rtmp/mp4/hls/ts等协议
+- 1、新增支持adpcm/av1/vp8&9编码格式，全链路支持rtsp/webrtc/rtmp/mp4/hls/ts等协议
 
 
 # 二、转码实现原理
